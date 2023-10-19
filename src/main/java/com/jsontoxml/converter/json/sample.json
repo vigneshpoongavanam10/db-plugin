@@ -1,0 +1,63 @@
+{
+  "id": 1,
+  "author": "Vignesh",
+  "changeSets": [
+    {
+      "sno": 1,
+      "action": "create.table",
+      "coreTableName": "TSTENT",
+      "columnValues": [
+        {
+          "column": "uidpk",
+          "dataType": "int",
+          "value": "",
+          "pk": true,
+          "nn": false,
+          "uq": false
+        },
+        {
+          "column": "fname",
+          "dataType": "varchar(65)",
+          "value": "",
+          "pk": false,
+          "nn": false,
+          "uq": false
+        },
+        {
+          "column": "lname",
+          "dataType": "varchar(65)",
+          "value": "",
+          "pk": false,
+          "nn": false,
+          "uq": false
+        }
+      ],
+      "insertValues": null,
+      "forgeinKeyConstraint": null
+    },
+    {
+      "sno": 2,
+      "action": "insert.table",
+      "coreTableName": "TSDT",
+      "columnValues":null,
+      "insertValues":[],
+      "forgeinKeyConstraint": null
+    },
+    {
+      "sno": 3,
+      "action": "extend.table",
+      "coreTableName": "TSENT",
+      "addValues": [],
+      "insertValues": null,
+      "forgeinKeyConstraint": null
+    },
+    {
+      "sno": 4,
+      "action": "index.foreign",
+      "coreTableName": "TDENT",
+      "columnValues": null,
+      "insertValues": null,
+      "forgeinKeyConstraint":[]
+    }
+  ]
+}
